@@ -9,51 +9,32 @@
 
 @media screen and (min-width: 320px) {
   .cover__subtitle {
-      margin-top: 16px;
-      margin-bottom: 33px;
-      font-size: 14px;
-      line-height: 16px;
-      max-width: 288px;
+    font-size: calc(0.875rem + ((1vw - 3.2px) * 0.8929));
+    line-height: calc(1rem + ((1vw - 3.2px) * 1.3393));
+    margin-top: calc(1rem + ((1vw - 3.2px) * 3.5714));
+    margin-bottom: calc(2.0625rem + ((1vw - 3.2px) * 18.3036));
+    max-width: calc(18rem + ((1vw - 3.2px) * 16.0714));
+    }
   }
-}
-
-@media screen and (min-width: 432px) {
-  .cover__subtitle {
-      margin-top: 20px;
-      font-size: 15px;
-      line-height: 17px;
-      max-width: 306px;
-
-  }
-}
-
-@media screen and (min-width: 600px) {
-  .cover__subtitle {
-      margin-top: 26px;
-      font-size: 16px;
-      line-height: 19px;
-      max-width: 334px;
-  }
-}
 
 @media screen and (min-width: 768px) {
   .cover__subtitle {
-      margin-top: 32px;
-      margin-bottom: 115px;
-      font-size: 18px;
-      line-height: 22px;
-      max-width: 360px;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 32px;
+    margin-bottom: calc(7.1875rem + ((1vw - 7.68px) * 31.25));
+    max-width: 360px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .cover__subtitle {
-      margin-bottom: 194px;
+    margin-bottom: calc(12.1875rem + ((1vw - 10.24px) * 19.5313));
   }
 }
 
 @media screen and (min-width: 1280px) {
   .cover__subtitle {
-      margin-bottom: 245px;
+    margin-bottom: 245px;
   }
 }

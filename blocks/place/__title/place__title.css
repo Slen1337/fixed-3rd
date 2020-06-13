@@ -8,8 +8,8 @@
   .place__title {
       margin: 0 auto;
       width: 90%;
-      font-size: 32px;
-      line-height: 35px;
+      font-size: calc(2rem + ((1vw - 3.2px) * 2.2321));
+      line-height: calc(2.1875rem + ((1vw - 3.2px) * 2.4554));
 
   }
 }
@@ -18,8 +18,8 @@
   .place__title {
       margin: 0;
       width: 97%;
-      font-size: 42px;
-      line-height: 46px;
+      font-size: calc(2.625rem + ((1vw - 7.68px) * 11.7188));
+      line-height: calc(2.875rem + ((1vw - 7.68px) * 11.7188));
 
   }
 }

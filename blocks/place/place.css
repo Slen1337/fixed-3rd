@@ -20,7 +20,7 @@
   .place {
     grid-template-columns: 1fr;
     grid-gap: 32px;
-    margin-bottom: 48px;
+    margin-bottom: calc(3rem + ((1vw - 3.2px) * 5.3571));
   }
 }
 
@@ -28,7 +28,7 @@
   .place {
       grid-template-columns: min-content 1fr;
       grid-gap: 48px 28px;
-      margin-bottom: 72px;
+      margin-bottom: calc(4.5rem + ((1vw - 7.68px) * 3.125));
   }
 }
 

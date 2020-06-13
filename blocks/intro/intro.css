@@ -13,28 +13,34 @@
 
 @media screen and (min-width: 320px) {
   .intro {
-      padding-top: 64px;
-      max-width: 288px;
+    padding-top: calc(4rem + ((1vw - 3.2px) * 5.3571));
+    max-width: calc(18rem + ((1vw - 3.2px) * 96.4286));
   }
 }
 
 @media screen and (min-width: 768px) {
   .intro {
-      padding-top: 88px;
-      max-width: 720px;
+    padding-top: calc(5.5rem + ((1vw - 7.68px) * 1.5625));
+    max-width: calc(45rem + ((1vw - 7.68px) * -11.7187));
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .intro {
+    padding-right: calc(0.0625rem + ((1vw - 7.69px) * 92.9412));
   }
 }
 
 @media screen and (min-width: 1024px) {
   .intro {
-      padding-right: 238px;
-      padding-top: 92px;
-      max-width: 690px;
+    padding-right: calc(14.875rem + ((1vw - 10.24px) * 21.875));
+    padding-top: 92px;
+    max-width: 690px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .intro {
-      padding-right: 284px;
+    padding-right: 284px;
   }
 }

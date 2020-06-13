@@ -8,10 +8,10 @@
 
 @media screen and (min-width: 320px) {
   .lead__subtitle {
-      font-size: 16px;
-      line-height: 20px;
-      max-width: 288px;
-      margin-top: 16px;
+      font-size: calc(1rem + ((1vw - 3.2px) * 3.125));
+      line-height: calc(1.25rem + ((1vw - 3.2px) * 3.5714));
+      max-width: calc(18rem + ((1vw - 3.2px) * 78.5714));
+      margin-top: calc(1rem + ((1vw - 3.2px) * 3.5714));
   }
 }
 
